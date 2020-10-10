@@ -1,0 +1,375 @@
+header {
+  height: 83px;
+  width: 100%;
+  border-bottom: 1px solid black; }
+  header .header {
+    height: 100%;
+    display: flex;
+    justify-content: space-between; }
+    header .header .headerL {
+      height: 100%;
+      width: 420px;
+      display: flex; }
+      header .header .headerL .logobox {
+        height: 100%;
+        width: 118px;
+        border-right: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+      header .header .headerL .nav {
+        width: 302px;
+        display: flex;
+        align-items: center; }
+        header .header .headerL .nav a {
+          flex: 1;
+          border-right: 1px solid black;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          header .header .headerL .nav a article {
+            color: black;
+            font-weight: 700; }
+        header .header .headerL .nav a:hover article {
+          color: red;
+          border-bottom: 2px solid red; }
+        header .header .headerL .nav a:nth-of-type(4) {
+          border-right: none; }
+    header .header .headerR {
+      width: 480px;
+      height: 100%;
+      display: flex; }
+      header .header .headerR article {
+        height: 100%;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        header .header .headerR article a {
+          display: flex; }
+          header .header .headerR article a img {
+            margin-right: 10px; }
+          header .header .headerR article a span {
+            font-size: 12px;
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center; }
+          header .header .headerR article a span:hover {
+            text-decoration: underline; }
+      header .header .headerR section {
+        height: 100%;
+        width: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-left: 1px solid black; }
+        header .header .headerR section span {
+          margin-right: 5px; }
+
+html .mainbox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px; }
+  html .mainbox main {
+    width: 1180px;
+    height: 620px;
+    display: flex; }
+    html .mainbox main .left {
+      width: 790px;
+      display: flex; }
+      html .mainbox main .left .goodsscroll {
+        width: 80px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        html .mainbox main .left .goodsscroll .ming {
+          margin-top: 10px; }
+        html .mainbox main .left .goodsscroll img {
+          width: 100%; }
+        html .mainbox main .left .goodsscroll aside {
+          cursor: pointer; }
+        html .mainbox main .left .goodsscroll aside:nth-of-type(2) {
+          margin-top: 10px; }
+      html .mainbox main .left #img {
+        flex: 1;
+        margin-left: 70px;
+        cursor: crosshair; }
+        html .mainbox main .left #img img {
+          width: 590px;
+          height: 590px; }
+    html .mainbox main .right {
+      display: flex;
+      flex-direction: column;
+      flex: 1; }
+      html .mainbox main .right h1 {
+        font-size: 30px;
+        line-height: 32px;
+        font-weight: 500; }
+      html .mainbox main .right h2 {
+        font-size: 24px;
+        font-weight: 700;
+        margin-top: 14px; }
+      html .mainbox main .right p {
+        font-size: 14px;
+        line-height: 16px;
+        margin-top: 7px; }
+      html .mainbox main .right .price {
+        font-size: 26px;
+        margin-top: 22px;
+        font-weight: 600; }
+      html .mainbox main .right .saleout {
+        color: red;
+        margin-top: 20px; }
+      html .mainbox main .right img {
+        width: 32px;
+        height: 32px;
+        display: block;
+        border: 1px solid black;
+        margin-top: 20px; }
+      html .mainbox main .right aside {
+        margin-top: 10px;
+        color: #666666; }
+      html .mainbox main .right .selectbox {
+        height: 50px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between; }
+        html .mainbox main .right .selectbox div {
+          display: flex;
+          flex-direction: column;
+          width: 178px;
+          border: 1px solid black; }
+          html .mainbox main .right .selectbox div select {
+            flex: 1; }
+        html .mainbox main .right .selectbox label {
+          font-size: 11px;
+          top: 7px;
+          color: #666666; }
+      html .mainbox main .right a {
+        text-decoration: underline;
+        margin-top: 10px;
+        color: #666666; }
+      html .mainbox main .right .add {
+        height: 50px;
+        width: 100%;
+        background-color: red;
+        font-size: 16px;
+        color: white;
+        margin-top: 30px;
+        cursor: pointer;
+        line-height: 50px;
+        text-align: center; }
+      html .mainbox main .right .share {
+        height: 17px;
+        margin-top: 30px;
+        display: flex;
+        font-size: 14px; }
+        html .mainbox main .right .share img {
+          height: 100%;
+          width: 60px;
+          border: none;
+          margin-top: 0px;
+          margin-left: 20px; }
+
+html .messagebox {
+  margin-top: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  html .messagebox .message {
+    width: 1180px;
+    background-color: #eee;
+    padding: 0 10px; }
+    html .messagebox .message p {
+      padding: 50px 101px 15px 120px; }
+      html .messagebox .message p span {
+        font-size: 14px; }
+    html .messagebox .message ul {
+      height: 115px;
+      padding: 0 101px 15px 139px;
+      display: flex;
+      flex-direction: column; }
+      html .messagebox .message ul li {
+        flex: 1;
+        list-style-type: disc; }
+    html .messagebox .message .tips {
+      color: #222222;
+      padding: 0px 101px 80px 120px;
+      font-size: 14px;
+      font-weight: 700; }
+      html .messagebox .message .tips a {
+        color: #222222;
+        text-decoration: underline; }
+
+html .carbox {
+  width: 414px;
+  position: fixed;
+  right: 0;
+  top: 50px; }
+  html .carbox .car {
+    width: 100%;
+    height: 100%; }
+    html .carbox .car .title {
+      height: 80px;
+      background-color: #eee;
+      padding: 0 20px 0 15px;
+      display: flex;
+      justify-content: space-between;
+      line-height: 80px; }
+      html .carbox .car .title aside:nth-of-type(1) p {
+        font-size: 18px;
+        font-weight: 600; }
+      html .carbox .car .title aside:nth-of-type(1) span {
+        font-size: 14px;
+        font-weight: 600;
+        margin-left: 7px;
+        margin-top: 4px; }
+    html .carbox .car .maincar {
+      padding: 0 25px;
+      background-color: paleturquoise; }
+      html .carbox .car .maincar .listbox {
+        padding: 20px 0 10px 0;
+        display: flex; }
+        html .carbox .car .maincar .listbox img {
+          width: 110px;
+          height: 110px; }
+        html .carbox .car .maincar .listbox .list {
+          display: flex;
+          flex: 1;
+          flex-direction: column; }
+          html .carbox .car .maincar .listbox .list div {
+            background-color: palegreen;
+            margin-left: 20px;
+            height: 20px; }
+            html .carbox .car .maincar .listbox .list div p {
+              font-size: 14px;
+              float: left; }
+            html .carbox .car .maincar .listbox .list div span {
+              font-size: 14px;
+              color: #666666;
+              margin-left: 10px; }
+          html .carbox .car .maincar .listbox .list .p {
+            width: 100%;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #666666;
+            height: 37px; }
+          html .carbox .car .maincar .listbox .list div:nth-of-type(2) {
+            margin-top: 10px; }
+          html .carbox .car .maincar .listbox .list div:nth-of-type(5) {
+            display: flex;
+            justify-content: space-between; }
+            html .carbox .car .maincar .listbox .list div:nth-of-type(5) div {
+              margin-left: 0; }
+    html .carbox .car .carb {
+      margin-top: 30px;
+      width: 100%;
+      background-color: palevioletred; }
+      html .carbox .car .carb div {
+        display: flex;
+        justify-content: space-between; }
+        html .carbox .car .carb div span {
+          font-size: 14px;
+          margin-bottom: 8px; }
+      html .carbox .car .carb div:nth-of-type(4) span {
+        font-size: 16px;
+        font-weight: 700; }
+    html .carbox .car #account {
+      height: 50px;
+      font-size: 18px;
+      line-height: 50px;
+      text-align: center;
+      background-color: red;
+      color: white;
+      margin-top: 12px; }
+
+html footer {
+  width: 100%;
+  height: 432px;
+  margin-top: 40px; }
+  html footer .footTbox {
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    background-color: #222222; }
+    html footer .footTbox .footT {
+      width: 1200px;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      html footer .footTbox .footT .footTR {
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        html footer .footTbox .footT .footTR article {
+          display: flex; }
+        html footer .footTbox .footT .footTR article:nth-of-type(1) img {
+          margin-right: 10px; }
+        html footer .footTbox .footT .footTR article:nth-of-type(1) aside {
+          font-size: 14px;
+          font-weight: 400;
+          color: white;
+          margin-right: 10px; }
+        html footer .footTbox .footT .footTR article:nth-of-type(2) {
+          width: 287px;
+          height: 100%; }
+          html footer .footTbox .footT .footTR article:nth-of-type(2) input {
+            width: 237px;
+            height: 100%; }
+          html footer .footTbox .footT .footTR article:nth-of-type(2) button {
+            width: 50px; }
+  html footer .footBbox {
+    width: 100%;
+    height: 322px;
+    background-color: #eee;
+    display: flex;
+    justify-content: center; }
+    html footer .footBbox .footB {
+      width: 1200px;
+      display: flex;
+      border-bottom: 1px solid white; }
+      html footer .footBbox .footB article {
+        flex: 1; }
+        html footer .footBbox .footB article aside {
+          height: 68px;
+          display: flex;
+          align-items: center;
+          border-bottom: 1px solid white; }
+          html footer .footBbox .footB article aside p {
+            margin: 0; }
+          html footer .footBbox .footB article aside img {
+            margin-right: 10px; }
+          html footer .footBbox .footB article aside span {
+            font-size: 14px;
+            color: #222222;
+            font-weight: 700; }
+        html footer .footBbox .footB article aside:nth-of-type(2) {
+          height: 27.5px;
+          border: none; }
+          html footer .footBbox .footB article aside:nth-of-type(2) img {
+            width: 20px; }
+          html footer .footBbox .footB article aside:nth-of-type(2) p {
+            line-height: 27.5px;
+            margin: 0; }
+        html footer .footBbox .footB article p {
+          font-size: 13px;
+          color: #222222;
+          margin-left: 33px;
+          margin-bottom: 8px; }
+        html footer .footBbox .footB article p:nth-of-type(1) {
+          margin-top: 20px; }
+      html footer .footBbox .footB article:nth-of-type(1) p:nth-of-type(3) {
+        cursor: pointer; }
+      html footer .footBbox .footB article:nth-of-type(1) p:nth-of-type(3):hover {
+        text-decoration: underline; }
+      html footer .footBbox .footB article:nth-of-type(2) p, html footer .footBbox .footB article:nth-of-type(3) p {
+        cursor: pointer; }
+      html footer .footBbox .footB article:nth-of-type(2) p:hover, html footer .footBbox .footB article:nth-of-type(3) p:hover {
+        text-decoration: underline; }

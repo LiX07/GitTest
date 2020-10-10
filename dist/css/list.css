@@ -1,0 +1,310 @@
+header {
+  height: 83px;
+  width: 100%;
+  border-bottom: 1px solid black; }
+  header .header {
+    height: 100%;
+    display: flex;
+    justify-content: space-between; }
+    header .header .headerL {
+      height: 100%;
+      width: 420px;
+      display: flex; }
+      header .header .headerL .logobox {
+        height: 100%;
+        width: 118px;
+        border-right: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+      header .header .headerL .nav {
+        width: 302px;
+        display: flex;
+        align-items: center; }
+        header .header .headerL .nav a {
+          flex: 1;
+          border-right: 1px solid black;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          header .header .headerL .nav a article {
+            color: black;
+            font-weight: 700; }
+        header .header .headerL .nav a:hover article {
+          color: red;
+          border-bottom: 2px solid red; }
+        header .header .headerL .nav a:nth-of-type(4) {
+          border-right: none; }
+    header .header .headerR {
+      width: 480px;
+      height: 100%;
+      display: flex; }
+      header .header .headerR article {
+        height: 100%;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        header .header .headerR article a {
+          display: flex; }
+          header .header .headerR article a img {
+            margin-right: 10px; }
+          header .header .headerR article a span {
+            font-size: 12px;
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center; }
+          header .header .headerR article a span:hover {
+            text-decoration: underline; }
+      header .header .headerR section {
+        height: 100%;
+        width: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-left: 1px solid black; }
+        header .header .headerR section span {
+          margin-right: 5px; }
+
+html .mainbox {
+  width: 100%;
+  height: 4110px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  html .mainbox .main {
+    max-width: 1180px;
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+    padding: 55px 10px 95px; }
+    html .mainbox .main .left {
+      width: 270px;
+      display: flex;
+      flex-direction: column; }
+      html .mainbox .main .left .leftT {
+        height: 496.6px;
+        color: #222; }
+        html .mainbox .main .left .leftT h1 {
+          font-size: 18px;
+          font-weight: 700;
+          margin-bottom: 20px; }
+        html .mainbox .main .left .leftT ul {
+          height: 35px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          border-bottom: 1px solid #ccc; }
+          html .mainbox .main .left .leftT ul h2 {
+            font-size: 14px;
+            font-weight: 700;
+            cursor: pointer; }
+          html .mainbox .main .left .leftT ul h2:hover {
+            color: #ff0000; }
+          html .mainbox .main .left .leftT ul span {
+            font-size: 20px;
+            cursor: pointer; }
+        html .mainbox .main .left .leftT ul:nth-of-type(2) h2 {
+          color: #ff0000;
+          border-bottom: none; }
+        html .mainbox .main .left .leftT h3 {
+          font-size: 14px;
+          line-height: 35px;
+          height: 35px;
+          margin-left: 15px; }
+        html .mainbox .main .left .leftT h3:hover {
+          color: #ff0000; }
+      html .mainbox .main .left .leftB {
+        height: 1011.6px;
+        margin-top: 10px; }
+        html .mainbox .main .left .leftB ul {
+          height: 35px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center; }
+          html .mainbox .main .left .leftB ul h2 {
+            font-size: 14px;
+            font-weight: 700;
+            cursor: pointer; }
+          html .mainbox .main .left .leftB ul h2:hover {
+            color: #ff0000; }
+          html .mainbox .main .left .leftB ul aside {
+            font-size: 20px;
+            cursor: pointer; }
+          html .mainbox .main .left .leftB ul aside:hover {
+            color: #ff0000; }
+        html .mainbox .main .left .leftB ul:nth-of-type(1) {
+          border-bottom: 1px solid #ccc;
+          padding-bottom: 8px;
+          font-size: 18px; }
+          html .mainbox .main .left .leftB ul:nth-of-type(1) h1 {
+            font-weight: 700; }
+          html .mainbox .main .left .leftB ul:nth-of-type(1) aside {
+            font-size: 14px;
+            color: #666;
+            text-decoration: underline;
+            cursor: pointer; }
+        html .mainbox .main .left .leftB article {
+          display: flex;
+          flex-wrap: wrap;
+          box-sizing: border-box;
+          padding: 5px 0 18px;
+          border-bottom: 1px solid #ccc; }
+          html .mainbox .main .left .leftB article li {
+            height: 26px;
+            background-color: #ececec;
+            font-size: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 10px 12px 0;
+            padding: 0 10px;
+            cursor: pointer; }
+          html .mainbox .main .left .leftB article li:hover {
+            color: #ff0000; }
+          html .mainbox .main .left .leftB article img {
+            width: 100%;
+            height: 84px; }
+        html .mainbox .main .left .leftB article:nth-of-type(1), html .mainbox .main .left .leftB article:nth-of-type(2) {
+          height: 61px; }
+        html .mainbox .main .left .leftB article:nth-of-type(3) {
+          height: 99px; }
+        html .mainbox .main .left .leftB article:nth-of-type(4) {
+          height: 119px; }
+        html .mainbox .main .left .leftB article:nth-of-type(5) {
+          height: 289px; }
+          html .mainbox .main .left .leftB article:nth-of-type(5) li:nth-of-type(6) {
+            margin-right: 0; }
+        html .mainbox .main .left .leftB article:nth-of-type(6) {
+          height: 95px;
+          display: flex;
+          flex-direction: column;
+          margin-top: 8px;
+          padding: 0;
+          padding-top: 8px; }
+          html .mainbox .main .left .leftB article:nth-of-type(6) li {
+            cursor: hand; }
+          html .mainbox .main .left .leftB article:nth-of-type(6) li:hover {
+            color: #222; }
+          html .mainbox .main .left .leftB article:nth-of-type(6) li:nth-of-type(1) {
+            height: 17px;
+            font-size: 15px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: flex-start; }
+          html .mainbox .main .left .leftB article:nth-of-type(6) aside {
+            display: flex;
+            margin-bottom: 10px; }
+            html .mainbox .main .left .leftB article:nth-of-type(6) aside div:nth-of-type(1), html .mainbox .main .left .leftB article:nth-of-type(6) aside div:nth-of-type(3) {
+              width: 4px;
+              height: 15px;
+              background-color: #ff0000;
+              display: flex; }
+            html .mainbox .main .left .leftB article:nth-of-type(6) aside div:nth-of-type(1) {
+              left: 0; }
+            html .mainbox .main .left .leftB article:nth-of-type(6) aside div:nth-of-type(2) {
+              flex: 1;
+              height: 3px;
+              background-color: #ccc;
+              margin-top: 6px; }
+            html .mainbox .main .left .leftB article:nth-of-type(6) aside div:nth-of-type(3) {
+              right: 0; }
+          html .mainbox .main .left .leftB article:nth-of-type(6) li:nth-of-type(2) {
+            height: 14px;
+            display: flex;
+            justify-content: space-between;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-size: 12px; }
+    html .mainbox .main .right {
+      width: 870px;
+      margin-left: 20px; }
+      html .mainbox .main .right p {
+        font-size: 14px;
+        margin-bottom: 10px; }
+        html .mainbox .main .right p span {
+          font-size: 32px;
+          margin-right: 10px; }
+      html .mainbox .main .right .screening {
+        display: flex;
+        padding-bottom: 13px;
+        border-bottom: 2px solid #222222; }
+        html .mainbox .main .right .screening span {
+          font-size: 14px;
+          margin-right: 23px;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+        html .mainbox .main .right .screening aside {
+          font-size: 12px;
+          padding: 8px 26px;
+          margin-right: 10px;
+          border: 1px solid #222222; }
+      html .mainbox .main .right .foodsbox {
+        display: flex;
+        flex-wrap: wrap; }
+        html .mainbox .main .right .foodsbox li {
+          box-sizing: border-box;
+          width: 217.5px;
+          padding: 15px 16px;
+          margin-bottom: 30px; }
+          html .mainbox .main .right .foodsbox li article {
+            width: 100%;
+            height: 100%; }
+            html .mainbox .main .right .foodsbox li article a {
+              color: #222222; }
+            html .mainbox .main .right .foodsbox li article .Img {
+              width: 185.5px;
+              height: 185.5px;
+              border-bottom: 1px solid #ccc;
+              margin: 0 auto; }
+              html .mainbox .main .right .foodsbox li article .Img img {
+                width: 100%;
+                height: 100%;
+                margin: 0; }
+            html .mainbox .main .right .foodsbox li article .img {
+              width: 150px;
+              height: 24px;
+              margin: 13px auto;
+              display: flex;
+              justify-content: center;
+              align-items: center; }
+              html .mainbox .main .right .foodsbox li article .img a {
+                display: block;
+                width: 22px;
+                height: 22px; }
+                html .mainbox .main .right .foodsbox li article .img a img {
+                  width: 100%;
+                  height: 100%;
+                  border: 1px solid #222222; }
+            html .mainbox .main .right .foodsbox li article .title {
+              padding: 0 10px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              display: flex;
+              flex-wrap: wrap; }
+              html .mainbox .main .right .foodsbox li article .title a {
+                margin-bottom: 7px;
+                font-size: 15px;
+                text-align: center; }
+            html .mainbox .main .right .foodsbox li article .message {
+              padding: 0 10px; }
+              html .mainbox .main .right .foodsbox li article .message a {
+                font-size: 14px;
+                margin-bottom: 12px;
+                display: flex;
+                justify-content: center;
+                align-items: center; }
+            html .mainbox .main .right .foodsbox li article .price {
+              text-align: center;
+              font-size: 15px; }
+            html .mainbox .main .right .foodsbox li article .news {
+              margin-top: 10px;
+              padding: 0 10px;
+              text-align: center;
+              font-size: 12px;
+              line-height: 14px;
+              color: red; }

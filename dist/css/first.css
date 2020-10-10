@@ -1,0 +1,404 @@
+header {
+  height: 83px;
+  width: 100%;
+  border-bottom: 1px solid black; }
+  header .header {
+    height: 100%;
+    display: flex;
+    justify-content: space-between; }
+    header .header .headerL {
+      height: 100%;
+      width: 420px;
+      display: flex; }
+      header .header .headerL .logobox {
+        height: 100%;
+        width: 118px;
+        border-right: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+      header .header .headerL .nav {
+        width: 302px;
+        display: flex;
+        align-items: center; }
+        header .header .headerL .nav a {
+          flex: 1;
+          border-right: 1px solid black;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          header .header .headerL .nav a article {
+            color: black;
+            font-weight: 700; }
+        header .header .headerL .nav a:hover article {
+          color: red;
+          border-bottom: 2px solid red; }
+        header .header .headerL .nav a:nth-of-type(4) {
+          border-right: none; }
+    header .header .headerR {
+      width: 480px;
+      height: 100%;
+      display: flex; }
+      header .header .headerR article {
+        height: 100%;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        header .header .headerR article a {
+          display: flex; }
+          header .header .headerR article a img {
+            margin-right: 10px; }
+          header .header .headerR article a span {
+            font-size: 12px;
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center; }
+          header .header .headerR article a span:hover {
+            text-decoration: underline; }
+      header .header .headerR section {
+        height: 100%;
+        width: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-left: 1px solid black; }
+        header .header .headerR section span {
+          margin-right: 5px; }
+
+html .bannerbox {
+  height: 50px;
+  width: 100%;
+  background-color: #cccccc;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  html .bannerbox li {
+    cursor: pointer; }
+  html .bannerbox .banner {
+    width: 680px;
+    height: 100%;
+    display: flex;
+    position: relative;
+    overflow: hidden; }
+    html .bannerbox .banner .bannerp {
+      height: 100%;
+      position: absolute;
+      left: -680px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      html .bannerbox .banner .bannerp h2 {
+        width: 680px;
+        font-size: 12px;
+        text-align: center; }
+
+html .img1box {
+  height: 530px;
+  width: 100%;
+  position: relative; }
+  html .img1box .img1 {
+    height: 100%;
+    width: 100%; }
+    html .img1box .img1 img {
+      width: 100%;
+      height: 100%; }
+  html .img1box .img1message {
+    width: 282px;
+    height: 334px;
+    position: absolute;
+    left: 4.3%;
+    top: 20%; }
+    html .img1box .img1message h1 {
+      font-size: 37px;
+      color: white;
+      margin-bottom: 20px; }
+    html .img1box .img1message h3 {
+      font-size: 17px;
+      color: white;
+      margin-bottom: 20px; }
+    html .img1box .img1message aside {
+      display: flex;
+      flex-direction: column; }
+      html .img1box .img1message aside a {
+        width: 200px;
+        height: 50px;
+        background-color: white;
+        font-weight: 700;
+        color: black;
+        text-align: center;
+        line-height: 50px;
+        margin-bottom: 20px; }
+
+html .img2box {
+  width: 100%;
+  height: 530px;
+  margin-top: 30px;
+  position: relative; }
+  html .img2box .img2 img {
+    width: 100%;
+    height: 100%; }
+  html .img2box .img2message {
+    width: 440px;
+    height: 174px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center; }
+    html .img2box .img2message h1 {
+      font-size: 37px; }
+    html .img2box .img2message h2 {
+      font-size: 17px; }
+    html .img2box .img2message aside {
+      display: flex;
+      justify-content: space-around; }
+      html .img2box .img2message aside a {
+        width: 200px;
+        height: 50px;
+        background-color: black;
+        color: white;
+        line-height: 50px; }
+
+html .img3box {
+  width: 100%;
+  height: 527px;
+  margin-top: 30px;
+  position: relative; }
+  html .img3box .img3 img {
+    width: 100%;
+    height: 100%; }
+  html .img3box .img3message {
+    width: 307px;
+    height: 244px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    position: absolute;
+    right: 4.3%;
+    top: 50%;
+    transform: translate(-50%, -50%); }
+    html .img3box .img3message h1 {
+      font-size: 37px;
+      color: white; }
+    html .img3box .img3message h3 {
+      font-size: 17px;
+      color: white; }
+    html .img3box .img3message a {
+      width: 200px;
+      height: 50px;
+      text-align: center;
+      line-height: 50px;
+      background-color: white;
+      color: black;
+      font-weight: 700; }
+
+html .img4img, html .img5img {
+  width: 100%;
+  height: 280px;
+  display: flex;
+  margin-top: 30px; }
+  html .img4img a, html .img5img a {
+    flex: 1; }
+    html .img4img a img, html .img5img a img {
+      width: 100%;
+      height: 100%; }
+
+html .img4message, html .img5message {
+  width: 100%;
+  height: 300px;
+  display: flex; }
+  html .img4message article, html .img5message article {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    html .img4message article h1, html .img5message article h1 {
+      font-size: 22px;
+      font-weight: 700;
+      margin: 22px 0 9px; }
+    html .img4message article h3, html .img5message article h3 {
+      font-size: 15px;
+      font-weight: 500; }
+    html .img4message article a, html .img5message article a {
+      width: 200px;
+      height: 50px;
+      background-color: black;
+      font-size: 15px;
+      font-weight: 700;
+      color: white;
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+
+html .foodsbox {
+  width: 100%;
+  height: 455px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  html .foodsbox .foodsh3 {
+    width: 1375px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 26px; }
+  html .foodsbox .foodsnew {
+    width: 1375px;
+    height: 401px;
+    background-color: gold;
+    display: flex; }
+    html .foodsbox .foodsnew section {
+      width: 64px;
+      height: 100%; }
+    html .foodsbox .foodsnew .foodsL {
+      display: flex;
+      align-items: center; }
+    html .foodsbox .foodsnew .foodsR {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center; }
+    html .foodsbox .foodsnew .foods {
+      width: 1247px;
+      height: 100%;
+      overflow: hidden; }
+      html .foodsbox .foodsnew .foods .foodss {
+        width: 2000px;
+        height: 100%;
+        background-color: purple;
+        display: flex; }
+        html .foodsbox .foodsnew .foods .foodss article {
+          height: 100%;
+          margin-right: 20px;
+          display: flex;
+          flex: 1;
+          flex-direction: column;
+          align-items: center; }
+          html .foodsbox .foodsnew .foods .foodss article a {
+            position: relative; }
+            html .foodsbox .foodsnew .foods .foodss article a span {
+              height: 50px;
+              width: 100px;
+              border: 1px solid black;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              font-weight: 700;
+              text-align: center;
+              line-height: 50px;
+              color: white;
+              background-color: black;
+              z-index: 1;
+              display: none; }
+            html .foodsbox .foodsnew .foods .foodss article a span:hover {
+              background-color: white;
+              color: black; }
+          html .foodsbox .foodsnew .foods .foodss article a:hover span {
+            display: block; }
+          html .foodsbox .foodsnew .foods .foodss article aside {
+            width: 297px;
+            margin-top: 20px;
+            border-top: 1px solid black; }
+            html .foodsbox .foodsnew .foods .foodss article aside p {
+              text-align: center;
+              font-size: 15px; }
+            html .foodsbox .foodsnew .foods .foodss article aside p:nth-of-type(1) {
+              margin-top: 20px;
+              margin-bottom: 6px; }
+            html .foodsbox .foodsnew .foods .foodss article aside p:nth-of-type(2) {
+              margin-bottom: 8px;
+              font-size: 14px; }
+
+html footer {
+  width: 100%;
+  height: 432px;
+  margin-top: 40px; }
+  html footer .footTbox {
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    background-color: #222222; }
+    html footer .footTbox .footT {
+      width: 1200px;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      html footer .footTbox .footT .footTR {
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        html footer .footTbox .footT .footTR article {
+          display: flex; }
+        html footer .footTbox .footT .footTR article:nth-of-type(1) img {
+          margin-right: 10px; }
+        html footer .footTbox .footT .footTR article:nth-of-type(1) aside {
+          font-size: 14px;
+          font-weight: 400;
+          color: white;
+          margin-right: 10px; }
+        html footer .footTbox .footT .footTR article:nth-of-type(2) {
+          width: 287px;
+          height: 100%; }
+          html footer .footTbox .footT .footTR article:nth-of-type(2) input {
+            width: 237px;
+            height: 100%; }
+          html footer .footTbox .footT .footTR article:nth-of-type(2) button {
+            width: 50px; }
+  html footer .footBbox {
+    width: 100%;
+    height: 322px;
+    background-color: #eee;
+    display: flex;
+    justify-content: center; }
+    html footer .footBbox .footB {
+      width: 1200px;
+      display: flex;
+      border-bottom: 1px solid white; }
+      html footer .footBbox .footB article {
+        flex: 1; }
+        html footer .footBbox .footB article aside {
+          height: 68px;
+          display: flex;
+          align-items: center;
+          border-bottom: 1px solid white; }
+          html footer .footBbox .footB article aside p {
+            margin: 0; }
+          html footer .footBbox .footB article aside img {
+            margin-right: 10px; }
+          html footer .footBbox .footB article aside span {
+            font-size: 14px;
+            color: #222222;
+            font-weight: 700; }
+        html footer .footBbox .footB article aside:nth-of-type(2) {
+          height: 27.5px;
+          border: none; }
+          html footer .footBbox .footB article aside:nth-of-type(2) img {
+            width: 20px; }
+          html footer .footBbox .footB article aside:nth-of-type(2) p {
+            line-height: 27.5px;
+            margin: 0; }
+        html footer .footBbox .footB article p {
+          font-size: 13px;
+          color: #222222;
+          margin-left: 33px;
+          margin-bottom: 8px; }
+        html footer .footBbox .footB article p:nth-of-type(1) {
+          margin-top: 20px; }
+      html footer .footBbox .footB article:nth-of-type(1) p:nth-of-type(3) {
+        cursor: pointer; }
+      html footer .footBbox .footB article:nth-of-type(1) p:nth-of-type(3):hover {
+        text-decoration: underline; }
+      html footer .footBbox .footB article:nth-of-type(2) p, html footer .footBbox .footB article:nth-of-type(3) p {
+        cursor: pointer; }
+      html footer .footBbox .footB article:nth-of-type(2) p:hover, html footer .footBbox .footB article:nth-of-type(3) p:hover {
+        text-decoration: underline; }
